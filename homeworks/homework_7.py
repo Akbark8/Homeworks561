@@ -52,7 +52,7 @@ def select_books(conn):
 
 
 def main():
-    conn = sqlite3.connect("library.db")
+    conn = sqlite3.connect("../library.db")
     print("База данных открыта")
 
     try:
